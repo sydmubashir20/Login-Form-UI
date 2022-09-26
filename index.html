@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Form section starts here -->
+    <div class="form-container">
+
+        <form id="loginform">
+            <label for="Email">Please enter your email*</label>
+            <div id="emailInp" class="inpdiv">
+                <input type="email" id="txtemail" class="inpMatter" placeholder="Please enter your email">
+            </div>
+            <p id="Eeror" class="error"></p>
+            <label for="pass">Password*</label><br>
+            <div id="passInp" class="inpdiv">
+                <input type="password" id="txtpass" class="inpMatter" placeholder="Please enter your Password">
+                <img src="img-holder/eye-closed.png" alt="Eye" id="eye-img" onclick="eyebeh()">
+            </div>
+            <p id="Peror" class="error"></p>
+
+            
+        </form>
+
+        <div class="button-holder">
+            <button id="" onclick="abc()" class="sub-btn">Login</button>
+            <p class="button-p">Or, login with</p>
+            <button id="facebook-btn" class="sub-btn" ><i class="fa-brands fa-facebook-f"></i>   Facebook</button><br>
+            <button id="Google-btn" class="sub-btn" ><i class="fa-brands fa-google-plus-g"></i>      Google</button>
+        </div>
+        
+    </div>
+    <!-- Form section ends here -->
+
+<hr>
+<p class="footer">Designed by Syed Mubashir Ali &copy; all rights reserved </p>
+</body>
+
+</html>
+<script src="js/index.js"></script>
+<script src="https://kit.fontawesome.com/16d6118556.js" crossorigin="anonymous"></script>

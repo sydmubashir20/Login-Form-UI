@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(185, 185, 185);
+}
+.inpMatter {
+    outline: none;
+    border: none;
+    width: 351px;
+    height: 27px;
+    font-size: 16px;
+    padding: 3px;
+}
+
+#eye-img {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    float: right;
+    margin-right: 12px;    
+}
+
+#loginform {
+    width: 30%;
+    
+}
+
+#sub-btn {
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gray;
+    background-color: white;
+    margin: 200px;
+    padding: 20px;
+}
+
+.inpdiv {
+    border: 1px solid gray;
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.error {
+    margin-top: 2px;
+    font-size: 13px;
+}
+
+.button-holder {
+    margin-top: 11px;
+    margin-left: 21px;
+}
+
+.sub-btn {
+    width: 302px;
+    height: 51px;
+    font-size: 20px;
+    background-color: #ff5200;
+    color: white;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#facebook-btn{
+    text-transform: none;
+    background-color: rgb(59, 59, 247);
+}
+#Google-btn {
+    text-transform: none;
+    background-color: rgb(250, 61, 61);
+}
+.button-p{
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 6px;
+}
+.footer{
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
